@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="iSh.Forms.Result">
+    <NavigationPage.TitleView x:Uid="TView">
+        <StackLayout  HorizontalOptions="Fill">
+            <Label Text="iSh!"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem NavigationPage.BackButtonTitle="Home" Text="Busca" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill">
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="#F9F9F9" HeightRequest="60">
+                <Label x:Name="LabelTipoBusca" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="30" TextColor="#000000" Margin="5, 0, 0, 0" />
+            </StackLayout>
+            <ListView x:Name="ListaBusca" VerticalOptions="FillAndExpand" HasUnevenRows="True" ItemSelected="ListaBusca_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid VerticalOptions="Start" HorizontalOptions="StartAndExpand" Padding="10, 0" RowSpacing="5" ColumnSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="90" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="85" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <controls:CircleImage Source="{Binding UserProfile.Photo}" HeightRequest="61" WidthRequest="61" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" >
+                                    <!--<controls:CircleImage.GestureRecognizers>
+                                        <TapGestureRecognizer x:Uid="{Binding Id}" x:Name="TGProfilePhoto" Tapped="TGProfilePhoto_Tapped" NumberOfTapsRequired="1" />
+                                    </controls:CircleImage.GestureRecognizers>-->
+                                </controls:CircleImage>
+
+                                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill" Padding="5">
+                                    <!--<StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer x:Uid="{Binding Id}" x:Name="TGProfileDescription" Tapped="TGProfileDescription_Tapped" NumberOfTapsRequired="1" />
+                                        <SwipeGestureRecognizer x:Uid="{Binding Id}" x:Name="SGProfileDescription" Direction="Right" Swiped="SGProfileDescription_Swiped" />
+                                    </StackLayout.GestureRecognizers>-->
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="{Binding DistanceKm}" FontAttributes="Bold" FontSize="17" TextColor="#000000"/>
+                                                <Span Text=" Km" FontAttributes="Bold" FontSize="17" TextColor="#000000"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label Text="{Binding UserProfile.Name}" FontSize="13" TextColor="#3F3F3F" />
+                                    <Label Text="{Binding UserProfile.Points}" FontSize="13" TextColor="#3F3F3F" />
+                                </StackLayout>
+                            </Grid>                           
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

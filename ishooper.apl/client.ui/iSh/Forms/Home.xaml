@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="iSh.Forms.Home">
+    <NavigationPage.TitleView>
+        <StackLayout  VerticalOptions="StartAndExpand">
+            <Label Text="iSh!"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Home" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill">
+            <StackLayout HorizontalOptions="Fill" BackgroundColor="#F9F9F9" HeightRequest="30">
+                <SearchBar x:Name="txtBusca" Placeholder="Procuro por..." HorizontalOptions="Fill" Margin="10,0,10,0" />
+                <Button BackgroundColor="#007AFF" x:Name="btBuscar" Text="Buscar" FontAttributes="Bold" TextColor="White" HorizontalOptions="Fill" Margin="10,0,10,0" Clicked="BtBuscar_Clicked" />
+            </StackLayout>
+            <ScrollView VerticalOptions="Fill" Margin="0, 90, 0, 0">
+                <Grid VerticalOptions="Start" HorizontalOptions="Center" Padding="10, 0" RowSpacing="5" ColumnSpacing="5">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*" />
+                        <ColumnDefinition Width=".5*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="165"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf01" CornerRadius="10" x:Uid="1" Source="Profissao_Mecanico.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf02" CornerRadius="10" x:Uid="2" Source="Profissao_ArCondicionado.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="1" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf03" CornerRadius="10" x:Uid="3" Source="Profissao_Encanador.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="1" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf04" CornerRadius="10" x:Uid="4" Source="Profissao_Eletricista.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="2" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf05" CornerRadius="10" x:Uid="5" Source="Profissao_Pedreiro.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="2" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf06" CornerRadius="10" x:Uid="6" Source="Profissao_Pintor.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="3" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf07" CornerRadius="10" x:Uid="7" Source="Profissao_Baba.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="3" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <ImageButton x:Name="btProf08" CornerRadius="10" x:Uid="8" Source="Profissao_Professor.png" BackgroundColor="#999999" WidthRequest="165" HeightRequest="165" Clicked="ImageButton_Clicked" />
+                    </StackLayout>
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

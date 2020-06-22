@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+            x:Class="iSh.Forms.Profile"
+            xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <NavigationPage.TitleView x:Uid="TView">
+        <StackLayout  HorizontalOptions="Fill">
+            <Label Text="iSh!"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem NavigationPage.BackButtonTitle="Busca" Text="Perfil" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill" BackgroundColor="#E5E5EA">
+            <Grid VerticalOptions="Start" HorizontalOptions="Fill" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label x:Name="LabelTipo" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="30" TextColor="#000000" Margin="5, 0, 0, 0" Grid.Row="0" Grid.Column="0" />
+                <Button x:Name="BtContratar" Text="Contratar" TextColor="#ffffff" BackgroundColor="#007AFF" WidthRequest="40" HeightRequest="20" Grid.Row="0" Grid.Column="1" Clicked="BtContratar_Clicked" Margin="20" />
+            </Grid>
+
+            <Grid VerticalOptions="Start" HorizontalOptions="StartAndExpand" Padding="10, 0" RowSpacing="5" ColumnSpacing="5" BackgroundColor="#E5E5EA">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="85" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <controls:CircleImage x:Name="UserPhoto" HeightRequest="61" WidthRequest="61" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" />
+
+                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill" Padding="5">
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span x:Name="LabelDistance" FontAttributes="Bold" FontSize="13" TextColor="#3F3F3F"/>
+                                <Span Text=" Km" FontAttributes="Bold" FontSize="13" TextColor="#3F3F3F"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label x:Name="LabelName" FontSize="19" TextColor="#000000" />
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span x:Name="LabelPoints" FontSize="13" TextColor="#3F3F3F"/>
+                                <Span Text=" pontos" FontSize="13" TextColor="#3F3F3F"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+            </Grid>
+
+            <BoxView WidthRequest="100" HeightRequest="2" Color="#000000" />
+
+            <Label Text="Outras Informações" FontAttributes="Bold" FontSize="19" TextColor="#000000" Margin="5, 10, 5, 5" />
+
+            <Label Margin="10, 0, 10, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Cadastrado desde: " FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                        <Span x:Name="LabelCreatedDate" FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Margin="10, 0, 10, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Idiomas: " FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                        <Span x:Name="LabelLanguages" FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Margin="10, 0, 10, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Formação: " FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                        <Span x:Name="LabelProfessionalQualification" FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Margin="10, 0, 10, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Cursos: " FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                        <Span x:Name="LabelCourses" FontAttributes="Bold" FontSize="14" TextColor="#3F3F3F"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label Text="Avaliações" FontAttributes="Bold" FontSize="19" TextColor="#000000" Margin="5, 10, 5, 0" />
+
+            <ListView x:Name="ListaEvaluation" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="#ffffff">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid VerticalOptions="Start" HorizontalOptions="StartAndExpand" Padding="10, 0" RowSpacing="5" ColumnSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="120" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="85" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <controls:CircleImage Source="{Binding UserProfile.Photo}" HeightRequest="61" WidthRequest="61" Grid.Column="0"
+                                                      Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#3F3F3F" />
+
+                                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill" Padding="5">
+                                    <Label Text="{Binding UserProfile.Name}" FontAttributes="Bold" FontSize="17" TextColor="#000000" />
+                                    <Grid HorizontalOptions="FillAndExpand">
+                                        <Grid.RowDefinitions><RowDefinition Height="53" /></Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="60" />
+                                            <ColumnDefinition Width="60" />
+                                            <ColumnDefinition Width="60" />
+                                            <ColumnDefinition Width="60" />
+                                        </Grid.ColumnDefinitions>
+                                        <Image Source="{Binding Commendation001}" Grid.Row="0" Grid.Column="0" />
+                                        <Image Source="{Binding Commendation002}" Grid.Row="0" Grid.Column="1" />
+                                        <Image Source="{Binding Commendation003}" Grid.Row="0" Grid.Column="2" />
+                                        <Image Source="{Binding Commendation004}" Grid.Row="0" Grid.Column="3" />
+                                    </Grid>
+                                    <Label Text="{Binding Comments}" FontSize="13" TextColor="#3F3F3F" Padding="5" />
+                                </StackLayout>
+                            </Grid>                           
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

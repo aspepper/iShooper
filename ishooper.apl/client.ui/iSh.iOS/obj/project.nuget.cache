@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "87IqBjVklBA7KE1okPYTIfosi0AH6aqrwvW5VhnfMDqDkLcD8UPz3uyB41IJYMfOD2XeGuyyyJrIrLV6zVmofQ==",
+  "success": true,
+  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexsandro.pimenta/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/alexsandro.pimenta/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+    "/Users/alexsandro.pimenta/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/alexsandro.pimenta/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
