@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "87IqBjVklBA7KE1okPYTIfosi0AH6aqrwvW5VhnfMDqDkLcD8UPz3uyB41IJYMfOD2XeGuyyyJrIrLV6zVmofQ==",
+  "dgSpecHash": "p/Ft4wH4dGLtd4mKON7ac6oeYY4ZfwgLN1YQak55N+ypmKlX8HBVGVKyt4rNMOnXDM6ecYwCSocYVYPFowK2kA==",
   "success": true,
-  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
+  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/alexsandro.pimenta/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/alexsandro.pimenta/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",

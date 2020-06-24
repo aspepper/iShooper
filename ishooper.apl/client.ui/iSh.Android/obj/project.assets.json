@@ -2013,11 +2013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
+      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
       "projectName": "iSh.Android",
-      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
+      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
       "packagesPath": "/Users/alexsandro.pimenta/.nuget/packages/",
-      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.Android/obj/",
+      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2034,8 +2034,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj": {
-              "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj"
+            "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj": {
+              "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj"
             }
           }
         }

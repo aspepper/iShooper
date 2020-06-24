@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7wSUA27JsPjxG/1SrlqNr+ottP8CIoeJkTWqhP334dvZmO+uVf9vmK23ahDjb3hYe4dffnrM3WLbIuqkRanQTw==",
+  "dgSpecHash": "i0TRvL2Exg09h5NLWfHx8ZzTV/okd5JEdw0hmPs1Q7Eg6tWoobwPXurjLCjOlmJZ+V8BlvHoIGVfMA9n/sdSAA==",
   "success": true,
-  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj",
+  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj",
   "expectedPackageFiles": [
     "/Users/alexsandro.pimenta/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/alexsandro.pimenta/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

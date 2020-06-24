@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{B86BB971-BDA7-48A0-B616-8A70DA3E6063}|Default">
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
+  <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ishooper.apl/client.ui/iSh/Forms/Login.xaml">
+    <Files>
+      <File FileName="ishooper.apl/client.ui/iSh/Forms/Login.xaml" Line="26" Column="191" />
+      <File FileName="ishooper.apl/client.ui/iSh/Forms/Login.xaml.cs" Line="22" Column="28" />
+      <File FileName="ishooper.apl/client.ui/iSh/App.xaml.cs" Line="13" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ishooper" expanded="True">
+            <Node name="ishooper.app" expanded="True">
+              <Node name="client.ui" expanded="True">
+                <Node name="iSh" expanded="True">
+                  <Node name="Forms" expanded="True">
+                    <Node name="Login.xaml" expanded="True" selected="True" />
+                  </Node>
+                  <Node name="App.xaml" expanded="True" />
+                </Node>
+                <Node name="iSh.Android" expanded="True" />
+                <Node name="iSh.iOS" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Web" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

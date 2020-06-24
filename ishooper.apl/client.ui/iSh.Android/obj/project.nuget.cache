@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UuvS5P7ODSUGSR8XJ6Y8wYTLwOHMinp75VVf1rddYN1+CjcMqSf+sQi5mJf5YgIJkxaTB4jZsl5clpVNiTqlg==",
+  "dgSpecHash": "1plswZtNU9KDLvuvAefj8TCfdAaTMYPFYbxvXtycu7QTzz1+psipHPDC6P2zdckQrf/wlFcRYZFSjSz6Yuqy7w==",
   "success": true,
-  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
+  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.Android/iSh.Android.csproj",
   "expectedPackageFiles": [
     "/Users/alexsandro.pimenta/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/alexsandro.pimenta/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",

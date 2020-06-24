@@ -1125,11 +1125,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
+      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
       "projectName": "iSh.iOS",
-      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
+      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/iSh.iOS.csproj",
       "packagesPath": "/Users/alexsandro.pimenta/.nuget/packages/",
-      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh.iOS/obj/",
+      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1146,8 +1146,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj": {
-              "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj"
+            "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj": {
+              "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj"
             }
           }
         }

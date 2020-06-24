@@ -10,7 +10,7 @@ namespace iSh
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Forms.Home());
+            MainPage = new Forms.Login();
         }
 
         protected override void OnStart()

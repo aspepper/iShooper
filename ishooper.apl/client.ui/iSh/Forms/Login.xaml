@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="iSh.Forms.Login">
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="iSh.Forms.Login">
+    <NavigationPage.TitleView>
+        <StackLayout  VerticalOptions="StartAndExpand">
+            <Label Text="iSh!"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Login" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-
+        <StackLayout  VerticalOptions="StartAndExpand" HorizontalOptions="Fill" BackgroundColor="#F9F9F9">
+            <Entry x:Name="TextLogin" Margin="10,40,10,5" MaxLength="20" Placeholder="Entre o Login" PlaceholderColor="#F9F9F9" />
+            <Entry x:Name="TextPassword" Margin="10,5" MaxLength="20" Placeholder="Entre a Senha" IsPassword="True" PlaceholderColor="#F9F9F9" />
+            <Grid HorizontalOptions="Center" Padding="10, 0" RowSpacing="5" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Button BackgroundColor="#007AFF" x:Name="btCadastro" Text="Cadastro" FontAttributes="Bold" TextColor="White" HorizontalOptions="Fill" Margin="10" Clicked="btCadastro_Clicked" Grid.Row="0" Grid.Column="0" />
+                <Button BackgroundColor="#007AFF" x:Name="btLogin" Text="Logar" FontAttributes="Bold" TextColor="White" HorizontalOptions="Fill" Margin="10" Clicked="btLogin_Clicked" Grid.Row="0" Grid.Column="1" />
+            </Grid>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
