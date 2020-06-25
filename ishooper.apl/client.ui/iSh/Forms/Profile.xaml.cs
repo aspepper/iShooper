@@ -16,11 +16,11 @@ namespace iSh.Forms
         public Profile(int id, string busca)
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "Perfil");
 
             _id = id;
             _busca = busca;
-            NavigationPage.SetBackButtonTitle(this, "Perfil");
-
+            
             UserProvider = Utils.GetProviders(busca).Where(e => e.Id == id).FirstOrDefault();
             LabelTipo.Text = UserProvider.UserProfile.Occupation.Description;
             UserPhoto.Source = ImageSource.FromUri(new Uri(UserProvider.UserProfile.Photo));
@@ -39,6 +39,7 @@ namespace iSh.Forms
 
         void BtContratar_Clicked(System.Object sender, System.EventArgs e)
         {
+            Navigation.PushAsync(new Confirm(_id, _busca), true);
         }
     }
 }

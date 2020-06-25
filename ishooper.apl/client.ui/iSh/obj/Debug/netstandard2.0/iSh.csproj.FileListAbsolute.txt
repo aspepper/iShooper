@@ -22,6 +22,7 @@
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/bin/Debug/netstandard2.0/iSh.dll
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/bin/Debug/netstandard2.0/ref/iSh.dll
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/bin/Debug/netstandard2.0/iSh.pdb
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/obj/Debug/netstandard2.0/iSh.csprojAssemblyReference.cache
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/obj/Debug/netstandard2.0/Forms/Confirm.xaml.g.cs
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/obj/Debug/netstandard2.0/Forms/Home.xaml.g.cs

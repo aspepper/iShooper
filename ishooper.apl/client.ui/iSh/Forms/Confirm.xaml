@@ -1,5 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="iSh.Forms.Confirm">
+<ContentPage
+            xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+            x:Class="iSh.Forms.Confirm">
+    <NavigationPage.TitleView x:Uid="TView">
+        <StackLayout  HorizontalOptions="Fill">
+            <Label Text="iSh!"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem NavigationPage.BackButtonTitle="Confirmar" Text="Confirmar" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill" BackgroundColor="#E5E5EA">
+
+            <Label x:Name="LabelTipo" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="30" TextColor="#000000" Margin="5, 20, 5, 20" />
+
+            <Grid VerticalOptions="Start" HorizontalOptions="StartAndExpand" Padding="10, 0" RowSpacing="5" ColumnSpacing="5" BackgroundColor="#E5E5EA">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="85" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <controls:CircleImage x:Name="UserPhoto" HeightRequest="61" WidthRequest="61" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" />
+
+                <StackLayout Grid.Column="1" Grid.Row="0" VerticalOptions="Fill" HorizontalOptions="Fill" Padding="5">
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span x:Name="LabelDistance" FontAttributes="Bold" FontSize="13" TextColor="#3F3F3F"/>
+                                <Span Text=" Km" FontAttributes="Bold" FontSize="13" TextColor="#3F3F3F"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label x:Name="LabelName" FontSize="19" TextColor="#000000" />
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span x:Name="LabelPoints" FontSize="13" TextColor="#3F3F3F"/>
+                                <Span Text=" pontos" FontSize="13" TextColor="#3F3F3F"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+            </Grid>
+
+            <BoxView WidthRequest="100" HeightRequest="2" Color="#000000" />
+
+            <Button x:Name="BtConfirmar" Text="Confirmar" FontAttributes="Bold" TextColor="#ffffff" BackgroundColor="#007AFF" WidthRequest="40" HeightRequest="40" Clicked="BtConfirmar_Clicked" Margin="20" />
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

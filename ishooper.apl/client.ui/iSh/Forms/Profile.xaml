@@ -10,7 +10,7 @@
         </StackLayout>
     </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem NavigationPage.BackButtonTitle="Busca" Text="Perfil" />
+        <ToolbarItem NavigationPage.BackButtonTitle="Perfil" Text="Perfil" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout  VerticalOptions="Fill" BackgroundColor="#E5E5EA">

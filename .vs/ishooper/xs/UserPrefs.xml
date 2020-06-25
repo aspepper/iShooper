@@ -1,35 +1,42 @@
-﻿<Properties StartupConfiguration="{B86BB971-BDA7-48A0-B616-8A70DA3E6063}|Default">
-  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
+﻿<Properties StartupConfiguration="{E49E3545-A46D-4484-8295-EE9F13002E88}|Default">
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BDA1CD0E-E53B-400A-B70B-EF55EAE0E225" />
   <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ishooper.apl/client.ui/iSh/Forms/Login.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/ishooper.com/ClientApp/src/app/home/home.component.html">
     <Files>
-      <File FileName="ishooper.apl/client.ui/iSh/Forms/Login.xaml" Line="26" Column="191" />
-      <File FileName="ishooper.apl/client.ui/iSh/Forms/Login.xaml.cs" Line="22" Column="28" />
-      <File FileName="ishooper.apl/client.ui/iSh/App.xaml.cs" Line="13" Column="41" />
+      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component.html" Line="1" Column="1" />
+      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component" Line="1" Column="1" />
+      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component.css.ts" Line="6" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ishooper" expanded="True">
-            <Node name="ishooper.app" expanded="True">
-              <Node name="client.ui" expanded="True">
-                <Node name="iSh" expanded="True">
-                  <Node name="Forms" expanded="True">
-                    <Node name="Login.xaml" expanded="True" selected="True" />
+            <Node name="ishooper.app" expanded="True" />
+            <Node name="Web" expanded="True">
+              <Node name="ishooper.com" expanded="True">
+                <Node name="ClientApp" expanded="True">
+                  <Node name="assets" expanded="True" />
+                  <Node name="src" expanded="True">
+                    <Node name="app" expanded="True">
+                      <Node name="home" expanded="True">
+                        <Node name="home.component.html" selected="True" />
+                      </Node>
+                    </Node>
                   </Node>
-                  <Node name="App.xaml" expanded="True" />
                 </Node>
-                <Node name="iSh.Android" expanded="True" />
-                <Node name="iSh.iOS" expanded="True" />
+                <Node name="Pages" expanded="True" />
               </Node>
             </Node>
-            <Node name="Web" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf.Android FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

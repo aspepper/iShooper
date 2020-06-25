@@ -10,6 +10,7 @@ namespace iSh.Forms
         public Home()
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "Home");
         }
 
         async void ImageButton_Clicked(Object sender, EventArgs args)

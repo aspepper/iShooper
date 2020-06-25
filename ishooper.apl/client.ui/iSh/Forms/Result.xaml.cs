@@ -21,13 +21,13 @@ namespace iSh.Forms
         public Result(string busca, int professionId)
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "Busca");
 
             _busca = busca;
             _professionId = professionId;
             LabelTipoBusca.Text = _busca;
             ResultadoBusca = Utils.GetProviders(_busca);
             ListaBusca.ItemsSource = ResultadoBusca;
-            NavigationPage.SetBackButtonTitle(this, "Home");
         }
 
         async protected void BtVoltar_Clicked(System.Object sender, System.EventArgs e)
