@@ -1,32 +1,29 @@
-﻿<Properties StartupConfiguration="{E49E3545-A46D-4484-8295-EE9F13002E88}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{97783B93-CAC9-44EA-B155-A8A3D7DE0FB4}|Default">
   <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BDA1CD0E-E53B-400A-B70B-EF55EAE0E225" />
   <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="web/ishooper.com/ClientApp/src/app/home/home.component.html">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component.html" Line="1" Column="1" />
-      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component" Line="1" Column="1" />
-      <File FileName="web/ishooper.com/ClientApp/src/app/home/home.component.css.ts" Line="6" Column="32" />
+      <File FileName="API/ishooper.api/Controllers/ProductController.cs" Line="33" Column="10" />
+      <File FileName="API/ishooper.api/Controllers/UserController.cs" Line="27" Column="52" />
+      <File FileName="API/ishooper.api/appsettings.Development.json" Line="10" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ishooper" expanded="True">
-            <Node name="ishooper.app" expanded="True" />
-            <Node name="Web" expanded="True">
-              <Node name="ishooper.com" expanded="True">
-                <Node name="ClientApp" expanded="True">
-                  <Node name="assets" expanded="True" />
-                  <Node name="src" expanded="True">
-                    <Node name="app" expanded="True">
-                      <Node name="home" expanded="True">
-                        <Node name="home.component.html" selected="True" />
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
-                <Node name="Pages" expanded="True" />
+          <Node name="ishooper" expanded="True" selected="True">
+            <Node name="API" expanded="True">
+              <Node name="ishooper.api" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Controllers" expanded="True" />
+                <Node name="Properties" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
               </Node>
+              <Node name="ishooper.infra" expanded="True" />
             </Node>
+            <Node name="ishooper.app" expanded="True">
+              <Node name="client.ui" expanded="True" />
+            </Node>
+            <Node name="Web" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -42,4 +39,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.API.ishooper.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

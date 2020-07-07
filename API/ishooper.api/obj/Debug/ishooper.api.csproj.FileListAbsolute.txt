@@ -1,6 +1,0 @@
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/bin/Debug/ishooper.api.dll
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/bin/Debug/ishooper.api.pdb
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/obj/Debug/ishooper.api.csprojAssemblyReference.cache
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/obj/Debug/ishooper.api.csproj.CoreCompileInputs.cache
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/obj/Debug/ishooper.api.dll
-/Users/alexsandro.pimenta/Projetos/acades/ishooper/API/ishooper.api/obj/Debug/ishooper.api.pdb
