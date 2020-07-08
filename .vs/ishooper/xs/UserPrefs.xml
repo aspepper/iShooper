@@ -3,40 +3,42 @@
   <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="API/ishooper.api/Controllers/ProductController.cs" Line="33" Column="10" />
-      <File FileName="API/ishooper.api/Controllers/UserController.cs" Line="27" Column="52" />
-      <File FileName="API/ishooper.api/appsettings.Development.json" Line="10" Column="30" />
+      <File FileName="API/Ishooper.Api/Controllers/ProfessionController.cs" Line="39" Column="1" />
+      <File FileName="API/Ishooper.Infra/ProfessionService.cs" Line="88" Column="1" />
+      <File FileName="API/Ishooper.Dal/MongoContext.cs" Line="39" Column="1" />
+      <File FileName="API/Ishooper.Api/appsettings.Development.json" Line="3" Column="98" />
+      <File FileName="API/Ishooper.Infra/appsettings.json" Line="4" Column="98" />
+      <File FileName="API/Ishooper.Dal/ProfessionRepository.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ishooper" expanded="True" selected="True">
+          <Node name="ishooper" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="ishooper.api" expanded="True">
-                <Node name="Dependencies" expanded="True" />
-                <Node name="Controllers" expanded="True" />
-                <Node name="Properties" expanded="True" />
+              <Node name="Ishooper.Api" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProfessionController.cs" selected="True" />
+                </Node>
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
                 <Node name="appsettings.json" expanded="True" />
               </Node>
-              <Node name="ishooper.infra" expanded="True" />
+              <Node name="Ishooper.Dal" expanded="True" />
+              <Node name="Ishooper.Infra" expanded="True" />
             </Node>
-            <Node name="ishooper.app" expanded="True">
-              <Node name="client.ui" expanded="True" />
-            </Node>
-            <Node name="Web" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf.Android FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ishooper.app.provider.ui.iShProf.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.API.Ishooper.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Api/Controllers/ProfessionController.cs" relfile="API/Ishooper.Api/Controllers/ProfessionController.cs" line="39" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.API.ishooper.api PreferredExecutionTarget="/Applications/Google Chrome.app" />

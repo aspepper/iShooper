@@ -52,26 +52,26 @@
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/iSh.iOS.csproj.CopyComplete
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/iSh.iOS.exe
 /Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/iSh.iOS.pdb
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/ibtool/_BundleResourceWithLogicalName.items
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_PartialAppManifest.items
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/actool/_BundleResourceWithLogicalName.items
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_PartialAppManifest.items
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/coremlc/_BundleResourceWithLogicalName.items
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Mecanico.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_ArCondicionado.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Encanador.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Eletricista.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Pedreiro.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Pintor.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Baba.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Profissao_Professor.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Elogio_Curtiu.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Elogio_Pontualidade.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Elogio_Satisfacao.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Elogio_Rapidez.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/Elogio_Excelente.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/bt_home.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/bt_caixa_mensagens.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/bt_chat.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/bt_config.png
-/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.5/optimized/
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Mecanico.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_ArCondicionado.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Encanador.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Eletricista.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Pedreiro.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Pintor.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Baba.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Profissao_Professor.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Elogio_Curtiu.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Elogio_Pontualidade.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Elogio_Satisfacao.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Elogio_Rapidez.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/Elogio_Excelente.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/bt_home.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/bt_caixa_mensagens.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/bt_chat.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/bt_config.png
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh.iOS/obj/iPhoneSimulator/Debug/optimized/
