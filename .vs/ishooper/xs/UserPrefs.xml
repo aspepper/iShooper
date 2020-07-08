@@ -4,11 +4,11 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="API/Ishooper.Api/Controllers/ProfessionController.cs" Line="39" Column="1" />
-      <File FileName="API/Ishooper.Infra/ProfessionService.cs" Line="88" Column="1" />
-      <File FileName="API/Ishooper.Dal/MongoContext.cs" Line="39" Column="1" />
-      <File FileName="API/Ishooper.Api/appsettings.Development.json" Line="3" Column="98" />
-      <File FileName="API/Ishooper.Infra/appsettings.json" Line="4" Column="98" />
-      <File FileName="API/Ishooper.Dal/ProfessionRepository.cs" Line="19" Column="1" />
+      <File FileName="API/Ishooper.Infra/ProfessionService.cs" />
+      <File FileName="API/Ishooper.Dal/MongoContext.cs" />
+      <File FileName="API/Ishooper.Api/appsettings.Development.json" />
+      <File FileName="API/Ishooper.Infra/appsettings.json" />
+      <File FileName="API/Ishooper.Dal/ProfessionRepository.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
