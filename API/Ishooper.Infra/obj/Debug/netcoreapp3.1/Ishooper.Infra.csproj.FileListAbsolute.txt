@@ -1,0 +1,12 @@
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.csprojAssemblyReference.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.AssemblyInfoInputs.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.AssemblyInfo.cs
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.csproj.CoreCompileInputs.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/bin/Debug/netcoreapp3.1/Ishooper.Infra.deps.json
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/bin/Debug/netcoreapp3.1/Ishooper.Infra.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/bin/Debug/netcoreapp3.1/Ishooper.Infra.pdb
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/bin/Debug/netcoreapp3.1/Ishooper.Dal.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/bin/Debug/netcoreapp3.1/Ishooper.Dal.pdb
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.csproj.CopyComplete
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/obj/Debug/netcoreapp3.1/Ishooper.Infra.pdb

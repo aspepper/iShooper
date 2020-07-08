@@ -1,0 +1,14 @@
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/bin/Debug/netstandard2.0/iShProf.deps.json
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/bin/Debug/netstandard2.0/iShProf.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/bin/Debug/netstandard2.0/ref/iShProf.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/bin/Debug/netstandard2.0/iShProf.pdb
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.csprojAssemblyReference.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.AssemblyInfoInputs.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.AssemblyInfo.cs
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.csproj.CoreCompileInputs.cache
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/ref/iShProf.dll
+/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf/obj/Debug/netstandard2.0/iShProf.pdb

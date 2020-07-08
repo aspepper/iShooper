@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "t1nDcX/LF6QuFcKcT34ITLX14+ZKOFC2J/dzZfoVxCQ6lOs72+8Ty8QAoa8Q7kxsBhBmqkbpkK3gvJgTOGb26Q==",
+  "success": true,
+  "projectFilePath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/provider.ui/iShProf.iOS/iShProf.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexsandro.pimenta/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/alexsandro.pimenta/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/alexsandro.pimenta/.nuget/packages/xamarin.forms/4.5.0.495/xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
