@@ -1,30 +1,45 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{97783B93-CAC9-44EA-B155-A8A3D7DE0FB4}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{E49E3545-A46D-4484-8295-EE9F13002E88}|Default">
   <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BDA1CD0E-E53B-400A-B70B-EF55EAE0E225" />
   <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="API/Ishooper.Api/Controllers/ProfessionController.cs" Line="39" Column="1" />
-      <File FileName="API/Ishooper.Infra/ProfessionService.cs" />
-      <File FileName="API/Ishooper.Dal/MongoContext.cs" />
-      <File FileName="API/Ishooper.Api/appsettings.Development.json" />
-      <File FileName="API/Ishooper.Infra/appsettings.json" />
-      <File FileName="API/Ishooper.Dal/ProfessionRepository.cs" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ishooper" expanded="True">
             <Node name="API" expanded="True">
               <Node name="Ishooper.Api" expanded="True">
-                <Node name="Controllers" expanded="True">
-                  <Node name="ProfessionController.cs" selected="True" />
-                </Node>
+                <Node name="Controllers" expanded="True" />
                 <Node name="Models" expanded="True" />
                 <Node name="Services" expanded="True" />
                 <Node name="appsettings.json" expanded="True" />
               </Node>
-              <Node name="Ishooper.Dal" expanded="True" />
-              <Node name="Ishooper.Infra" expanded="True" />
+              <Node name="Ishooper.Dal" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Ishooper.Infra" expanded="True">
+                <Node name="Extensions" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Web" expanded="True">
+              <Node name="ishooper.com" expanded="True">
+                <Node name="ClientApp" expanded="True">
+                  <Node name="src" expanded="True">
+                    <Node name="app" expanded="True">
+                      <Node name="account" expanded="True">
+                        <Node name="model" expanded="True" />
+                        <Node name="account.compoment.ts" selected="True" />
+                      </Node>
+                      <Node name="home" expanded="True" />
+                      <Node name="nav-menu" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Controllers" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Pages" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -37,7 +52,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Api/Controllers/ProfessionController.cs" relfile="API/Ishooper.Api/Controllers/ProfessionController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/alexsandro.pimenta/Projetos/acades/iShooper/API/Ishooper.Infra/UserService.cs" relfile="API/Ishooper.Infra/UserService.cs" line="98" column="9" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -23,7 +23,7 @@ namespace Ishooper.Api.Controllers
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
 
-        public UserController(ILogger<UserController> logger, IConfiguration configuration, IWebHostEnvironment environment)
+        public  UserController(ILogger<UserController> logger, IConfiguration configuration, IWebHostEnvironment environment)
         {
             _logger = logger;
             _configuration = configuration;
