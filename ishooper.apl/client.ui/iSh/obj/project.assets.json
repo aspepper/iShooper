@@ -645,11 +645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj",
+      "projectUniqueName": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj",
       "projectName": "iSh",
-      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/iSh.csproj",
+      "projectPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/iSh.csproj",
       "packagesPath": "/Users/alexsandro.pimenta/.nuget/packages/",
-      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/ishooper/ishooper.apl/client.ui/iSh/obj/",
+      "outputPath": "/Users/alexsandro.pimenta/Projetos/acades/iShooper/ishooper.apl/client.ui/iSh/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -708,7 +708,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
       }
     }
   }

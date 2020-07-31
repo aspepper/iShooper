@@ -1,47 +1,28 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{E49E3545-A46D-4484-8295-EE9F13002E88}|Default">
-  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BDA1CD0E-E53B-400A-B70B-EF55EAE0E225" />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{B86BB971-BDA7-48A0-B616-8A70DA3E6063}|Default">
+  <MonoDevelop.Ide.ItemProperties.ishooper.app.client.ui.iSh.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A814F6C8-EC08-4668-8D38-1DDD6580C2F6" />
   <MonoDevelop.Ide.ItemProperties.Web.ishooper.com PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ishooper" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="Ishooper.Api" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="Services" expanded="True" />
-                <Node name="appsettings.json" expanded="True" />
-              </Node>
-              <Node name="Ishooper.Dal" expanded="True">
-                <Node name="Models" expanded="True" />
-              </Node>
-              <Node name="Ishooper.Infra" expanded="True">
-                <Node name="Extensions" expanded="True" />
-                <Node name="Models" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Web" expanded="True">
-              <Node name="ishooper.com" expanded="True">
-                <Node name="ClientApp" expanded="True">
-                  <Node name="src" expanded="True">
-                    <Node name="app" expanded="True">
-                      <Node name="account" expanded="True">
-                        <Node name="model" expanded="True" />
-                        <Node name="account.compoment.ts" selected="True" />
-                      </Node>
-                      <Node name="home" expanded="True" />
-                      <Node name="nav-menu" expanded="True" />
-                    </Node>
-                  </Node>
+            <Node name="API" expanded="True" />
+            <Node name="ishooper.app" expanded="True">
+              <Node name="client.ui" expanded="True">
+                <Node name="iSh" expanded="True">
+                  <Node name="Forms" expanded="True" />
                 </Node>
-                <Node name="Controllers" expanded="True" />
-                <Node name="Models" expanded="True" />
-                <Node name="Pages" expanded="True" />
-                <Node name="appsettings.json" expanded="True" />
+                <Node name="iSh.iOS" selected="True" />
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Environment.OSVersion.Platform</Value>
+          <Value>timeBegin.Subtract(DateTime.Now)</Value>
+          <Value>DateTime.Now.Subtract(beginTime)</Value>
         </State>
       </Pad>
     </Pads>
